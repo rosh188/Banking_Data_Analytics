@@ -112,7 +112,7 @@ The dashboard includes a dedicated **PDF Export** option for reporting and offli
 The exported PDF is designed to include:
 
 - Key Performance Indicators
-- Charts and visualizations
+- Charts and visualization
 - Applied filters
 - Dashboard insights
 - Company branding/watermark
