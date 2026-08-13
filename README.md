@@ -26,7 +26,7 @@ The **Stakeholder Insights & Performance Dashboard** bridges raw insurance and f
 > **Interactive Tableau Dashboard Overview**  
 > *Includes live KPI monitoring, distribution charts, time-series analysis, dynamic filtering, and PDF export functionality.*
 
-![Stakeholder Insights & Performance Dashboard](Images/dashboard-preview.png)
+![Stakeholder Insights & Performance Dashboard](Bank_data_analysis_dashboard.png)
 
 ---
 
@@ -91,21 +91,10 @@ The **Stakeholder Insights & Performance Dashboard** bridges raw insurance and f
 
 ---
 
-## 📁 Project Architecture
+## 📁 Repository Structure
 
 ```text
-Banking_Data_Analytics/
-│
-├── README.md                                         # Project Documentation
-│
-├── Tableau/
-│   └── Stakeholder_Insights_Performance_Dashboard.twbx  # Packaged Tableau Workbook
-│
-├── Images/
-│   └── dashboard-preview.png                          # High-resolution Preview Image
-│
-├── Data/
-│   └── dataset.csv                                    # Underlying Data Source (Anonymized)
-│
-└── Documentation/
-    └── dashboard-requirements.md                      # Functional & Technical Specs
+.
+├── README.md                           # Project Documentation
+├── Bank_data_analysis.twbx             # Packaged Tableau Workbook
+└── Bank_data_analysis_dashboard.png    # Dashboard Screenshot
