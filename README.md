@@ -1,189 +1,111 @@
 # 📊 Stakeholder Insights & Performance Dashboard
 
-An interactive **Tableau Business Intelligence dashboard** designed to provide a comprehensive view of stakeholder performance, insurer value creation, premium trends, profitability, policy tenure, and Assets Under Management (AUM).
-
-The dashboard transforms complex insurance and stakeholder data into actionable insights, enabling decision-makers to compare insurers, analyse profitability, understand stakeholder contributions, and identify key business trends.
+An end-to-end interactive **Tableau Business Intelligence Dashboard** engineered to track, analyze, and visualize multi-dimensional performance metrics across insurance entities, stakeholder demographics, financial portfolios, and regional profitability.
 
 ---
 
-## 🎯 Project Objective
+## 🚀 Project Overview
 
-The objective of this dashboard is to provide stakeholders and decision-makers with a centralized view of important business and insurance performance metrics.
-
-The dashboard helps answer questions such as:
-
-- Which insurer has created the highest value?
-- How are premium collections changing over time?
-- How is shareholding distributed among stakeholders?
-- What is the relationship between cost ratio and profitability?
-- Which cities and policy tenures generate the highest profitability?
-- How are Assets Under Management distributed across stakeholders?
-- What is the total value created from Equity Assets Under Management?
+The **Stakeholder Insights & Performance Dashboard** bridges raw insurance and financial data with executive decision-making. By consolidating disjointed metrics into a cohesive, interactive BI interface, this project enables stakeholders to evaluate value creation drivers, premium collection trends, geographic profitability, shareholding structures, and capital allocation across Assets Under Management (AUM).
 
 ---
 
-## 📈 Key Performance Indicators (KPIs)
+## 🎯 Key Business Questions Addressed
 
-The dashboard includes the following key metrics:
-
-| KPI | Description |
-|---|---|
-| 💰 Total Premium Collected | Total premium collected across all policies |
-| 👥 Average Stakeholder Age | Average age of stakeholders |
-| 📊 Equity AUM Value Created | Total value created where AUM is classified as Equity |
-| 🏆 Highest Value Created | Highest value created by a single insurer |
-
-All KPIs dynamically update based on the selected filters.
+- **Insurer Performance:** Which partner categories and distribution channels generate the highest overall value?
+- **Revenue Trends:** How do premium collections trajectory-shift across multi-year cycles?
+- **Regional Profitability:** Which geographic markets (cities) yield optimal returns, and how does policy tenure impact overall profitability?
+- **Capital & Ownership Structure:** How is shareholding divided among Promoters, DIIs, and FIIs?
+- **Portfolio Allocation:** How are Assets Under Management (AUM) distributed across different stakeholder categories?
+- **Operational Efficiency:** What is the relationship between cost ratios (Opex, Commission) and Profit After Tax (PAT)?
 
 ---
 
-## 📊 Dashboard Visualizations
+## 📸 Dashboard Visual Interface
 
-### 1. Insurer Value Creation
+> **Interactive Tableau Dashboard Overview**  
+> *Includes live KPI monitoring, distribution charts, time-series analysis, dynamic filtering, and PDF export functionality.*
 
-Compares the total value created by different insurers and highlights the highest-performing insurers.
-
-### 2. Premium Collection Trend
-
-Shows the trend of premiums collected over time to identify growth patterns and changes in premium performance.
-
-### 3. Shareholding Distribution
-
-Displays the distribution of shareholding among stakeholders to understand ownership and stakeholder contribution.
-
-### 4. Cost Ratio vs. Profitability
-
-Analyses the relationship between cost ratio and profitability to identify performance patterns and potential cost impacts.
-
-### 5. City-wise Profitability
-
-Compares profitability across different cities to identify high-performing and underperforming regions.
-
-### 6. Policy Tenure vs. Profitability
-
-Analyses profitability across different policy tenure durations to understand how policy duration impacts performance.
-
-### 7. Assets Under Management
-
-Visualizes the distribution of Assets Under Management across stakeholders and provides insight into asset allocation.
+![Stakeholder Insights & Performance Dashboard](Images/dashboard-preview.png)
 
 ---
 
-## 🎛️ Filters
+## 📌 Executive KPI Summary
 
-The dashboard provides interactive filters for detailed analysis:
+| Headline Metric | Display Value | Description / Analytical Scope |
+| :--- | :---: | :--- |
+| **Total Premium** | **245.9B** | Aggregated premium generated across all policy tenures and regions. |
+| **Avg Age of Stakeholders** | **34.45** | Mean demographic profile across customer and investor datasets. |
+| **Equity Value Created** | **230.8B** | Total net equity value accrued across partner entities. |
+| **Highest Value Created (Insurer)** | **49.2M** | Peak single-entity value creation benchmark. |
 
-- 📍 **City** - Filter data by geographical location
-- 👤 **Stakeholder** - Analyse individual stakeholder contributions
-- ⏳ **Policy Tenure** - Use a range slider to select policy tenure
-- 📅 **Date Range** - Analyse data within a specific time period
-- ⚥ **Gender** - Filter stakeholders based on gender
-
-All charts and KPIs dynamically respond to the selected filters.
-
----
-
-## 🖱️ Interactivity
-
-The dashboard provides an interactive analytical experience.
-
-### 🔄 Dynamic Cross-Filtering
-
-Selecting a data point in one visualization dynamically filters the other visualizations.
-
-### 💡 Interactive Tooltips
-
-Hover over charts and data points to view additional details and business metrics.
-
-### 📊 Dynamic KPIs
-
-KPI values automatically update according to the selected filters and dashboard interactions.
-
-### 🎚️ Policy Tenure Range Slider
-
-Users can select a specific policy tenure range to analyse profitability and performance.
+*Note: Headline KPI metrics update dynamically when cross-filtering across regional, tenure, or asset parameters.*
 
 ---
 
-## 📄 PDF Export
+## 📊 Analytical Components & Visual Breakdown
 
-The dashboard includes a dedicated **PDF Export** option for reporting and offline analysis.
+### 1. 💎 Value Created by Insurers
+- **Visualization Type:** Horizontal Bar Chart
+- **Key Categories:** Bancassurance Partners (**139.91B**), Partner Branches (**60.98B**), Brokers (**33.80B**), Corporate Agents (**7.81B**), Employees (**2.90B**), Lives Cover (**0.51B**).
+- **Core Insight:** Bancassurance partners serve as the primary growth engine, driving over **57%** of overall insurer value creation.
 
-The exported PDF is designed to include:
+### 2. 📈 Premiums Collected Over Time
+- **Visualization Type:** Stacked Multi-Year Timeline (2014–2024)
+- **Core Insight:** Highlights historical collection trajectories, identifies seasonal dips (e.g., peak performance vs. historical baselines like 2020 at **366** and 2023 at **365**), and measures collection momentum across various reporting years.
 
-- Key Performance Indicators
-- Charts and visualization
-- Applied filters
-- Dashboard insights
-- Company branding/watermark
+### 3. 📍 Profitability by City & Policy Tenure
+- **Visualization Type:** Two-Dimensional Matrix Heatmap
+- **Geographic Coverage:** Ahmedabad, Bangalore, Goa, Jamshedpur, Jhalna, Mangalore, Mumbai, Mysore, Pune.
+- **Tenure Splits:** `< 1 year`, `1 to 3 years`, `3 to 5 years`, `> 5 years`.
+- **Core Insight:** Demonstrates clear profit concentrations—e.g., **Goa** yields strong returns in `< 1 year` policies (**3,080**), **Jamshedpur** leads in long-term `> 5 years` duration (**2,045**), and **Mumbai** shows consistent mid-tenure performance (**918** in `1 to 3 years`).
 
-This allows stakeholders to easily share dashboard results in business reviews and management reports.
+### 4. 💼 Assets Under Management (AUM) by Stakeholders
+- **Visualization Type:** Categorical Bar Chart
+- **Stakeholder Categories:** People (**5,024**), Distributors (**924**), Customers (**917**), Investors (**902**), Community, Environmental, Premium.
+- **Core Insight:** Stakeholder asset allocations are heavily concentrated in direct **People** networks, followed by structured distributor channels.
 
----
+### 5. 👥 Distribution of Shareholding Patterns
+- **Visualization Type:** Donut Chart
+- **Shareholding Breakdown:** 
+  - **FII (Foreign Institutional Investors):** **38.4%** *(Largest share)*
+  - **DII (Domestic Institutional Investors):** **30.2%**
+  - **Promoters:** **28.2%**
+- **Core Insight:** Strong institutional backing with foreign capital representing the primary ownership tranche.
 
-## 🔐 User Access & Security
-
-The dashboard is designed to support **role-based data visibility**.
-
-Different users can be provided with different levels of access depending on their role and responsibilities.
-
-Example access structure:
-
-| Role | Access Level |
-|---|---|
-| 👑 Admin | Full dashboard and dataset access |
-| 📊 Management | Organization-wide performance |
-| 🏢 Insurer | Relevant insurer and policy performance |
-| 👤 Stakeholder | Stakeholder-specific information |
-| 🌍 Regional User | Assigned city/region data |
-
-Role-based access can be implemented when deploying the dashboard through Tableau Server or Tableau Cloud.
-
----
-
-## 🛠️ Tools & Technologies
-
-### Visualization & Analytics
-
-- **Tableau**
-- Tableau Calculated Fields
-- Tableau Parameters
-- Tableau Filters
-- Tableau Dashboard Actions
-- Tableau Tooltips
-
-### Data Analysis
-
-- Insurance data
-- Stakeholder information
-- Insurer performance
-- Premium data
-- Policy information
-- Profitability metrics
-- Assets Under Management
-
-### Version Control
-
-- Git
-- GitHub
+### 6. 📊 Cost Ratio vs. Profitability
+- **Visualization Type:** Multi-Metric Comparison Chart
+- **Metrics Tracked:** Net Worth (**191.2B**), Opex Ratio (**22.7B**), Commission Ratio (**20.4B**), Total Cost Ratio (**11.6B**), Profit After Tax (PAT).
+- **Core Insight:** Compares gross enterprise net worth against operational overheads to pinpoint cost-efficiency sweet spots.
 
 ---
 
-## 📁 Project Structure
+## 🎛️ Interactive Features & Navigation
+
+| Feature | Mechanism | Business Utility |
+| :--- | :--- | :--- |
+| **Global Slicers** | Multi-select filters for *AUM, Stakeholders, Date, Profitability, Premium, Gender, City*. | Focus analysis on specific market niches or client demographics instantly. |
+| **Dynamic Tooltips** | Custom hover cards detailing granular underlying metrics. | Eliminates clutter while retaining fast access to underlying data values. |
+| **Visual Cross-Filtering** | Click-to-filter visual elements. | Select a city or insurer category to re-calculate all surrounding KPIs instantly. |
+| **One-Click Export** | Custom dashboard button mapped to `Download PDF`. | Streamlines distribution for board decks and operational reports. |
+
+---
+
+## 📁 Project Architecture
 
 ```text
-Stakeholder-Insights-Performance-Dashboard/
+Banking_Data_Analytics/
+│
+├── README.md                                         # Project Documentation
 │
 ├── Tableau/
-│   └── Stakeholder_Insights_Performance_Dashboard.twbx
-│
-├── Data/
-│   └── dataset.csv
+│   └── Stakeholder_Insights_Performance_Dashboard.twbx  # Packaged Tableau Workbook
 │
 ├── Images/
-│   └── dashboard-preview.png
+│   └── dashboard-preview.png                          # High-resolution Preview Image
 │
-├── Documentation/
-│   └── dashboard-requirements.md
+├── Data/
+│   └── dataset.csv                                    # Underlying Data Source (Anonymized)
 │
-└── README.md
+└── Documentation/
+    └── dashboard-requirements.md                      # Functional & Technical Specs
