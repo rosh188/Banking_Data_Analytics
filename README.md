@@ -98,3 +98,4 @@ The **Stakeholder Insights & Performance Dashboard** bridges raw insurance and f
 ├── README.md                           # Project Documentation
 ├── Bank_data_analysis.twbx             # Packaged Tableau Workbook
 └── Bank_data_analysis_dashboard.png    # Dashboard Screenshot
+└── Finance record.xlsx                 # Data used
